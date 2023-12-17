@@ -1,6 +1,6 @@
 import React from 'react'
-import './article.css'
-const article = () => {
+
+const Brand = () => {
   return (
     <div>
       
@@ -8,4 +8,4 @@ const article = () => {
   )
 }
 
-export default article
+export default Brand

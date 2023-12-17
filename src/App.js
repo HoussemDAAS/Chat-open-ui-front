@@ -1,5 +1,5 @@
 import React from 'react'
-
+ import { Article,brand,Navbar,cta,Feature } from './components'
 const App = () => {
   return (
     <div>
