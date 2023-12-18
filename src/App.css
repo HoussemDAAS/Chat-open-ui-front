@@ -10,7 +10,7 @@ body{
 .gradiant__bg
 {
     /* global 92%+ browsers support */
-    background: radial-gradient(circle at 3% 25%, rgba(240, 155, 84, 1) 0%, rgba(255, 235, 59, 1) 100%);
+    background: radial-gradient(circle at 3% 25%, rgba(214, 162, 232, 1) 0%, rgba(253, 160, 133, 1) 100%);
 }
 .gradiant__text{
     background: var(--gradiant-text);

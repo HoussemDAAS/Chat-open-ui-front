@@ -2,8 +2,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem 3rem;
-    
+
+    padding: 1em 2rem;
 }
 
 .wedding__NavBar-Links {
@@ -13,14 +13,13 @@
     align-items: center;
 }
 
-.wedding__NavBar-Links_Logo {
-    margin-right: 2.5rem;
- /* Ensures space between logo and nav links */
+.wedding__NavBar-links_logo {
+    margin-right: 2rem;
 }
 
 .wedding__NavBar-Links_Logo img {
-    width: 62px; /* Added 'px' to ensure proper CSS unit */
-    height: 60px; /* use 'auto' to maintain the aspect ratio of the image */
+    width: 62.56px;
+    height: auto;
 }
 
 .wedding__NavBar-Links_container {
@@ -31,27 +30,28 @@
 .wedding__NavBar-sign {
     display: flex;
     justify-content: flex-end;
-    align-items: center;}
+    align-items: center;
+}
 
 .wedding__NavBar-Links_container p a,
 .wedding__NavBar-sign p,
-.wedding__NavBar-menu_container p {
+.wedding__NavBar-menu_container p a{
     color: #fff;
     font-family: var(--font-family);
     font-weight: 500;
     font-size: 14px;
     line-height: 25px;
     text-transform: capitalize;
-text-decoration: none;
+ text-decoration: none;
     margin: 0 1rem;
     cursor: pointer;
-
 }
+
 .wedding__NavBar-sign button,
-.wedding__NavBar-menu_container button{
-  padding: 0.5rem 1rem;
+.wedding__NavBar-menu_container button {
+    padding: 0.5rem 1rem;
     color: #fff;
-    background: #FF4820;
+    background: #c44d59c9; /* Complementary dark coral tone */
     font-family: var(--font-family);
     font-weight: 500;
     font-size: 14px;
@@ -60,4 +60,76 @@ text-decoration: none;
     outline: none;
     cursor: pointer;
     border-radius: 5px;
+    transition: background-color 0.3s; /* Adds a smooth transition effect */
+}
+
+.wedding__NavBar-menu {
+    margin-left: 1rem;
+
+    display: none;
+    position: relative;
+}
+
+.wedding__NavBar-menu svg {
+    cursor: pointer;
+}
+
+.wedding__NavBar-menu_container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: column;
+    
+    text-align: end;
+    background: var(--color-footer);
+    padding: 2rem;
+    position: absolute;
+    right: 0;
+    top: 40px;
+    margin-top: 1rem;
+    min-width: 210px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0,0, 0,0.2);
+}
+
+.wedding__NavBar-menu_container p a {
+    margin: 1rem 0;
+}
+
+.wedding__NavBar-menu_container-links-sign {
+    display: none;
+}
+
+@media screen and (max-width: 1050px) {
+    .wedding__NavBar-Links_container {
+        display: none;
+    }
+
+    .wedding__NavBar-menu {
+        display: flex;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .wedding__NavBar {
+        padding: 2rem 4rem;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .wedding__NavBar {
+        padding: 2rem;
+    }
+
+    .wedding__NavBar-sign {
+        display: none;
+    }
+
+    .wedding__NavBar-menu_container {
+        top: 20px;
+    }
+
+    .wedding__NavBar-menu_container-links-sign {
+        display: block;
+    }
 }
