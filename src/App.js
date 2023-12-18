@@ -1,9 +1,24 @@
 import React from 'react'
- import { Article,brand,Navbar,cta,Feature } from './components'
+import{Blog,Footer,Features,Header,Possiblity,WhatWeeding} from './containers'
+ import { Brand,NavBar,CTA} from './components'
+ import './App.css'
+ import {RiMenu3Line,RiCloseLine} from 'react-icons/ri'
 const App = () => {
   return (
-    <div>
-    <h1>Weeding Planner</h1>
+    <div className='App'>
+      <div className='gradiant__bg'>
+        <NavBar/> 
+        <Header/>
+      </div>
+      <Brand/>
+      <WhatWeeding/>
+      <Features/>
+      <Blog/>
+      <Possiblity/>
+      <CTA/>
+      <Footer/>
+      
+      
     </div>
   )
 }
