@@ -1,0 +1,60 @@
+.wedding__features {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.wedding__features-heading {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+
+    text-align: left;
+    margin-right: 5rem;
+}
+
+.wedding__features-heading h1 {
+    font-size: 34px;
+    line-height: 45px;
+    font-weight: 800;
+    font-family: var(--font-family);
+}
+
+.wedding__features-heading p {
+    color: var(--color-subtext);
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 500;
+    font-family: var(--font-family);
+
+    margin-top: 2rem;
+}
+
+.wedding__features-container {
+  flex: 1.5;
+  display: flex;
+  justify-content: flex-start; /* Aligns items to the start of the container on the cross axis */
+  align-items: center; /* Centers items on the main axis */
+  flex-direction: column; /* Stacks children vertically */
+}
+
+@media screen and (max-width: 990px) {
+    .wedding__features {
+        flex-direction: column;
+    }
+
+    .wedding__features-heading {
+        margin: 0 0 2rem 0;
+    }
+}
+
+
+@media screen and (max-width: 550px) {
+    .wedding__features-heading h1 {
+        font-size: 28px;
+        line-height: 38px;
+    }
+}
