@@ -14,8 +14,8 @@ const App = () => {
       <WhatWeeding/>
       <Features/> 
       <Possiblity/>
-      <Blog/>
       <CTA/>
+      <Blog/>
       <Footer/>
       
       
