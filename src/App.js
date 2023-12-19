@@ -12,9 +12,9 @@ const App = () => {
       </div>
       <Brand/>
       <WhatWeeding/>
-      <Features/>
-      <Blog/>
+      <Features/> 
       <Possiblity/>
+      <Blog/>
       <CTA/>
       <Footer/>
       
