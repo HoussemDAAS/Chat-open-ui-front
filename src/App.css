@@ -12,11 +12,11 @@ body{
     /* global 92%+ browsers support */
     background: radial-gradient(circle at 3% 25%, rgba(214, 162, 232, 1) 0%, rgba(253, 160, 133, 1) 100%);
 }
-.gradiant__text{
-    background: var(--gradiant-text);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+.gradient__text {
+  background: var(--gradient-text);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .section__padding{
     padding: 4rem 6rem;
