@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Weeding-planner-ui-front/static/css/main.c78dfe0f.css",
+    "main.js": "/Weeding-planner-ui-front/static/js/main.392fefd4.js",
+    "static/media/weeding.png": "/Weeding-planner-ui-front/static/media/weeding.990a45ec92692dc1a043.png",
+    "static/media/possiblity.png": "/Weeding-planner-ui-front/static/media/possiblity.50d4f45a93401e960808.png",
+    "static/media/bloc2.png": "/Weeding-planner-ui-front/static/media/bloc2.d8f8af3c0e8abc7ca141.png",
+    "static/media/bloc1.png": "/Weeding-planner-ui-front/static/media/bloc1.d6549ee629299b858fab.png",
+    "static/media/bloc3.png": "/Weeding-planner-ui-front/static/media/bloc3.7945b99c204f8c550fa1.png",
+    "static/media/bloc5.png": "/Weeding-planner-ui-front/static/media/bloc5.8989d2400ced7a5590e4.png",
+    "static/media/bloc4.png": "/Weeding-planner-ui-front/static/media/bloc4.19b66d631d69fbd84665.png",
+    "static/media/people.png": "/Weeding-planner-ui-front/static/media/people.5cd2d6fbcd48bd63f106.png",
+    "static/media/logo.svg": "/Weeding-planner-ui-front/static/media/logo.307865416f94bee651f2f753650cb611.svg",
+    "index.html": "/Weeding-planner-ui-front/index.html",
+    "main.c78dfe0f.css.map": "/Weeding-planner-ui-front/static/css/main.c78dfe0f.css.map",
+    "main.392fefd4.js.map": "/Weeding-planner-ui-front/static/js/main.392fefd4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c78dfe0f.css",
+    "static/js/main.392fefd4.js"
+  ]
+}
